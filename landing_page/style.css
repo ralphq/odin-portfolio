@@ -1,0 +1,144 @@
+body {
+    font-family: 'Verdana';
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    gap: 16px;
+    margin-right: 32px;
+}
+
+.container-one {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.container-one h1 {
+    font: 24px #1F2937;
+    margin-bottom: 0px;
+}
+
+.container-one p {
+    margin-top: 4px; 
+}
+
+.container-one img {
+    width: 400px;
+    height: auto;
+    margin: 5%;
+    margin-right: 20%;
+}
+
+.container-one div {
+    padding: 10px 15% 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 3;
+}
+
+.container-one button {
+    background-color: #3882f6;
+    color:#F9FAF8;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+}
+
+.hollow-box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    background-color: transparent;
+    margin: 20px;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1% 25% 10%;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-two h2 {
+    text-align: center;
+}
+
+.container-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+}
+
+.container-three .text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.container-four {
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container-four .card {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.card button {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #F9FAF8;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.footer {
+    height: 72px;
+    padding: 2%;
+    font-size: 24px;
+    font-weight: light;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
